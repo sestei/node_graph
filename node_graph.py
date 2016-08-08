@@ -42,7 +42,7 @@ def node_graph(kat, output):
         # slightly ugly, but unfortunately detectors don't have the .nodes
         # property like components do.
         if len(det._nodes) > 0:
-            G.add_node(det.name, fillcolor='YellowGreen', shape='circle')
+            G.add_node(det.name, fillcolor='YellowGreen', shape='ellipse')
             for node in det._nodes:
                 add_kat_node(G, det.name, node)
     
