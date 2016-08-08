@@ -24,7 +24,6 @@ from pykat import finesse
 kat = finesse.kat()
 kat.loadKatFile('some_file.kat')
 
-#nodegraph.nodegraph(kat, 'output.pdf')
 nodegraph.nodegraph(kat, 'output.png')
 ```
 
