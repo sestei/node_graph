@@ -21,6 +21,7 @@ def node_graph(kat, output):
         G.add_edge(from_id, node.id)
 
     G = pgv.AGraph(strict=False)
+    G.graph_attr['label'] = 'Created by node_graph, https://github.com/sestei/node_graph'
     G.graph_attr['pencolor'] = 'black'
     G.node_attr['style'] = 'filled'
     G.node_attr['fontname'] = 'helvetica'
