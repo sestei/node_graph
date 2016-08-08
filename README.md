@@ -24,10 +24,11 @@ from pykat import finesse
 kat = finesse.kat()
 kat.loadKatFile('some_file.kat')
 
-nodegraph.nodegraph(kat, 'output.pdf')
+#nodegraph.nodegraph(kat, 'output.pdf')
+nodegraph.nodegraph(kat, 'output.png')
 ```
 
-An example output could look like this:
+An example output could look like this (PNG version):
 
 <img src="example.png" />
 
