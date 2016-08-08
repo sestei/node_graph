@@ -18,13 +18,13 @@ command line tool, which should be available in all the usual package managers
 ## Example usage
 
 ```python
-import nodegraph
+import node_graph
 from pykat import finesse
 
 kat = finesse.kat()
 kat.loadKatFile('some_file.kat')
 
-nodegraph.nodegraph(kat, 'output.png')
+node_graph.node_graph(kat, 'output.png')
 ```
 
 An example output could look like this (PNG version):
