@@ -3,6 +3,8 @@
 Small script to generate a node graph for pykat files. This should be really
 helpful for debugging larger finesse simulations.
 
+**Note**: As of 12 Aug 2016, there is a preliminary implementation of this in my pykat fork, please get in touch if you need/want it.
+
 ## Prerequisites
 
 This Python script has been tested on Python 2.7 on MacOSX El Capitan.
